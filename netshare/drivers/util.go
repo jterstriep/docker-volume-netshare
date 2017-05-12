@@ -65,6 +65,8 @@ func run(cmd string) error {
 		log.Println(string(out))
 		return err
 	}
+	log.Println("should be mounted")
+	log.Println(string(out))
 	return nil
 }
 
